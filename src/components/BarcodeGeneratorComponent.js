@@ -1,8 +1,4 @@
-import { IMAGES } from "../shared/images";
-
 function BarcodeGenerator() {
-  const { itempic, moreitem, palletpic } = IMAGES;
-  console.log(IMAGES[0].url);
   return (
     <div className="container mt-3">
       <div className="accordion" id="accordionExample">
@@ -268,17 +264,14 @@ function BarcodeGenerator() {
                   Select the item on the POD Screen. It should be highlighted in
                   blue. Tap the 'More' button on the bottom right.
                 </p>
-                <img
-                  src="/Users/danielbray/Code/FFM/usf-driver-tools-react/src/images/itemCode.JPG"
-                  alt="item code"
-                />
+                <img src="" alt="item code" />
                 <hr />
                 <p>
                   The item information is located in the second box on the top
                   of the next screen. Enter that number into the application
                   then tap Generate Single
                 </p>
-                <img src="/images/itemCode.JPG" />
+                <img src="" alt="" />
               </div>
               <div className="modal-footer">
                 <button
@@ -318,7 +311,7 @@ function BarcodeGenerator() {
                   Select the item on the POD Screen. It should be highlighted in
                   blue. Tap the 'More' button on the bottom right.
                 </p>
-                <img src="/images/moreItem.jpg" />
+                <img src="" alt="" />
                 <hr />
                 <p>
                   The item information is located in the second box on the top
@@ -327,7 +320,7 @@ function BarcodeGenerator() {
                   that item you need to create in the Quantity box. Lastly, tap
                   Generate Multiple.
                 </p>
-                <img src="/images/itemCode.JPG" />
+                <img src="" alt="" />
               </div>
               <div className="modal-footer">
                 <button
@@ -364,7 +357,7 @@ function BarcodeGenerator() {
               </div>
               <div className="modal-body">
                 <p>The pallet number and stop appears on your POD screen.</p>
-                <img src={IMAGES[0].url} />
+                <img src="" alt="" />
                 <hr />
                 <p>Route number is your 4-digit route number.</p>
               </div>

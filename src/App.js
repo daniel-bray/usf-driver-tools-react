@@ -1,4 +1,5 @@
 import { Switch, Route, Redirect } from "react-router-dom";
+import Announcements from "./components/AnnouncementsComponent";
 import Header from "./components/HeaderComponent";
 import Location from "./components/LocationComponent";
 import AddLocation from "./components/AddLocationComponent";
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
+        <Route exact path="/announcements" component={Announcements} />
         <Route exact path="/location-search" component={Location} />
         <Route exact path="/location-add" component={AddLocation} />
         <Route exact path="/feedback-routing" component={RoutingFeedback} />
