@@ -15,29 +15,17 @@ function App() {
 		<div className="App">
 			<Header />
 			<Switch>
+				<Route exact path="/announcements" component={Announcements} />
+				<Route exact path="/location-search" component={Location} />
+				<Route exact path="/location-add" component={AddLocation} />
 				<Route
 					exact
-					path="/usf-driver-tools-react/announcements"
-					component={Announcements}
-				/>
-				<Route
-					exact
-					path="/usf-driver-tools-react/location-search"
-					component={Location}
-				/>
-				<Route
-					exact
-					path="/usf-driver-tools-react/location-add"
-					component={AddLocation}
-				/>
-				<Route
-					exact
-					path="/usf-driver-tools-react/feedback-routing"
+					path="/feedback-routing"
 					component={RoutingFeedback}
 				/>
 				<Route
 					exact
-					path="/usf-driver-tools-react/feedback-loading"
+					path="/feedback-loading"
 					component={LoadingFeedback}
 				/>
 				<Route
@@ -45,7 +33,7 @@ function App() {
 					path="/usf-driver-tools-react/barcode-generator"
 					component={BarcodeGenerator}
 				/>
-				<Redirect to="/usf-driver-tools-react/announcements" />
+				<Redirect to="/announcements" />
 			</Switch>
 		</div>
 	);
