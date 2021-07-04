@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/usf-driver-tools-react/static/css/main.58a8816b.chunk.css",
+    "main.js": "/usf-driver-tools-react/static/js/main.df5673eb.chunk.js",
+    "main.js.map": "/usf-driver-tools-react/static/js/main.df5673eb.chunk.js.map",
+    "runtime-main.js": "/usf-driver-tools-react/static/js/runtime-main.1722815a.js",
+    "runtime-main.js.map": "/usf-driver-tools-react/static/js/runtime-main.1722815a.js.map",
+    "static/css/2.150d169a.chunk.css": "/usf-driver-tools-react/static/css/2.150d169a.chunk.css",
+    "static/js/2.cd309f8d.chunk.js": "/usf-driver-tools-react/static/js/2.cd309f8d.chunk.js",
+    "static/js/2.cd309f8d.chunk.js.map": "/usf-driver-tools-react/static/js/2.cd309f8d.chunk.js.map",
+    "static/js/3.dc1a8cc7.chunk.js": "/usf-driver-tools-react/static/js/3.dc1a8cc7.chunk.js",
+    "static/js/3.dc1a8cc7.chunk.js.map": "/usf-driver-tools-react/static/js/3.dc1a8cc7.chunk.js.map",
+    "index.html": "/usf-driver-tools-react/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/usf-driver-tools-react/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.58a8816b.chunk.css.map": "/usf-driver-tools-react/static/css/main.58a8816b.chunk.css.map",
+    "static/js/2.cd309f8d.chunk.js.LICENSE.txt": "/usf-driver-tools-react/static/js/2.cd309f8d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1722815a.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.cd309f8d.chunk.js",
+    "static/css/main.58a8816b.chunk.css",
+    "static/js/main.df5673eb.chunk.js"
+  ]
+}
