@@ -30,7 +30,7 @@ function App() {
 				/>
 				<Route
 					exact
-					path="/usf-driver-tools-react/barcode-generator"
+					path="/barcode-generator"
 					component={BarcodeGenerator}
 				/>
 				<Redirect to="/announcements" />
