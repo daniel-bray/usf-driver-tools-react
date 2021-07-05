@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/usf-driver-tools-react/static/css/main.58a8816b.chunk.css",
-    "main.js": "/usf-driver-tools-react/static/js/main.66b12140.chunk.js",
-    "main.js.map": "/usf-driver-tools-react/static/js/main.66b12140.chunk.js.map",
+    "main.js": "/usf-driver-tools-react/static/js/main.0a10671a.chunk.js",
+    "main.js.map": "/usf-driver-tools-react/static/js/main.0a10671a.chunk.js.map",
     "runtime-main.js": "/usf-driver-tools-react/static/js/runtime-main.1aed3f5a.js",
     "runtime-main.js.map": "/usf-driver-tools-react/static/js/runtime-main.1aed3f5a.js.map",
     "static/css/2.150d169a.chunk.css": "/usf-driver-tools-react/static/css/2.150d169a.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.d6762633.chunk.js",
     "static/css/main.58a8816b.chunk.css",
-    "static/js/main.66b12140.chunk.js"
+    "static/js/main.0a10671a.chunk.js"
   ]
 }
