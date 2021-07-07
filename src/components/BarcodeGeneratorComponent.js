@@ -1,3 +1,5 @@
+// import { LinkContainer } from "react-router-bootstrap";
+
 function BarcodeGenerator() {
 	return (
 		<div className="container mt-3">
@@ -22,14 +24,13 @@ function BarcodeGenerator() {
 						data-bs-parent="#accordionExample"
 					>
 						<div className="accordion-body">
-							<a
-								role="button"
+							<button
 								className="btn"
 								data-bs-toggle="modal"
 								data-bs-target="#singleItemModal"
 							>
 								TAP HERE FOR HELP
-							</a>
+							</button>
 							<form>
 								<div className="mb-3 col-8">
 									<input
@@ -87,14 +88,13 @@ function BarcodeGenerator() {
 						data-bs-parent="#accordionExample"
 					>
 						<div className="accordion-body">
-							<a
-								role="button"
+							<button
 								className="btn"
 								data-bs-toggle="modal"
 								data-bs-target="#multipleItemModal"
 							>
 								TAP HERE FOR HELP
-							</a>
+							</button>
 							<form>
 								<div className="row align-items-start mb-3">
 									<div className="col-8">
@@ -155,14 +155,13 @@ function BarcodeGenerator() {
 						data-bs-parent="#accordionExample"
 					>
 						<div className="accordion-body">
-							<a
-								role="button"
+							<button
 								className="btn"
 								data-bs-toggle="modal"
 								data-bs-target="#palletLabelModal"
 							>
 								TAP HERE FOR HELP
-							</a>
+							</button>
 							<p>
 								What is the pallet? <em>Example: F02</em>
 							</p>
