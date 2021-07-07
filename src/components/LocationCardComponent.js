@@ -36,7 +36,7 @@ class LocationCard extends Component {
 		);
 
 		const LocationList = stops.map((stop) => {
-			return <RenderLocation stop={stop} />;
+			return <RenderLocation stop={stop} key={stop.id} />;
 		});
 		return <Row>{LocationList}</Row>;
 	}
