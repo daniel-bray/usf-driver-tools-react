@@ -20,7 +20,7 @@ function Location() {
 					</InputGroup.Text>
 				</InputGroup.Prepend>
 				<FormControl
-					placeholder=""
+					placeholder="Search by Stop Name"
 					aria-label=""
 					aria-describedby="location-input"
 				/>

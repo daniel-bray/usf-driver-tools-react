@@ -30,7 +30,9 @@ class LocationCard extends Component {
 	}
 	render() {
 		const stops = this.state.locations.filter((location) =>
-			location.stopName.toLowerCase().includes(this.props.location)
+			location.stopName
+				.toLowerCase()
+				.includes(this.props.location.toLowerCase())
 		);
 
 		const LocationList = stops.map((stop) => {
