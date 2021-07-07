@@ -1,9 +1,10 @@
+import Welcome from "./WelcomeComponent";
 function Announcements() {
-  return (
-    <div>
-      <h1 className="text-center">Coming soon...</h1>
-    </div>
-  );
+	return (
+		<div>
+			<Welcome />
+		</div>
+	);
 }
 
 export default Announcements;
